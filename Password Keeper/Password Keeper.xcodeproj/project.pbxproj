@@ -17,6 +17,7 @@
 		FD7897A1207E5C59009B4DFC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7897A0207E5C59009B4DFC /* LoginViewController.swift */; };
 		FD7897A3207E658B009B4DFC /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7897A2207E658B009B4DFC /* Password.swift */; };
 		FD7897A5207E65D6009B4DFC /* PasswordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7897A4207E65D6009B4DFC /* PasswordCell.swift */; };
+		FDFF8626208E2D8700315E7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDFF8625208E2D8700315E7C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		FD7897A0207E5C59009B4DFC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FD7897A2207E658B009B4DFC /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
 		FD7897A4207E65D6009B4DFC /* PasswordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCell.swift; sourceTree = "<group>"; };
+		FDFF8625208E2D8700315E7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		FD789786207E58AD009B4DFC /* Password Keeper */ = {
 			isa = PBXGroup;
 			children = (
+				FDFF8625208E2D8700315E7C /* GoogleService-Info.plist */,
 				FD789787207E58AD009B4DFC /* AppDelegate.swift */,
 				FD78978B207E58AD009B4DFC /* Main.storyboard */,
 				FD789791207E58AE009B4DFC /* Assets.xcassets */,
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD789795207E58AE009B4DFC /* LaunchScreen.storyboard in Resources */,
+				FDFF8626208E2D8700315E7C /* GoogleService-Info.plist in Resources */,
 				FD789792207E58AE009B4DFC /* Assets.xcassets in Resources */,
 				FD78978D207E58AE009B4DFC /* Main.storyboard in Resources */,
 			);
